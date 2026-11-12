@@ -1,0 +1,13 @@
+{
+  "model": "YOLO26n-seg w8a32",
+  "source": "https://github.com/ultralytics/yolo-flutter-app/releases/download/v0.7.0/yolo26n-seg_w8a32.tflite",
+  "sha256": "96f16d4edf6b11112d089f707802f62348fbcf7958cd305e6fa24c4ac8291f5d",
+  "input": "1x3x640x640 float32 NCHW RGB /255",
+  "outputs": [
+    "1x116x8400",
+    "1x32x160x160"
+  ],
+  "license": "AGPL-3.0",
+  "runtime": "LiteRT 2.1.6",
+  "fixture": "https://raw.githubusercontent.com/ultralytics/assets/main/im/bus.jpg"
+}

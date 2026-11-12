@@ -1,0 +1,36 @@
+# Generated files and machine-local state
+.gradle/
+.kotlin/
+.idea/
+**/build/
+.cxx/
+.externalNativeBuild/
+*.iml
+local.properties
+.DS_Store
+Thumbs.db
+.venv*/
+__pycache__/
+artifacts/
+captures/
+# Private fixtures, credentials and signing material
+app/src/androidTest/assets/*private*
+app/src/androidTest/assets/*user*
+app/src/androidTest/assets/yolo-sideways-scene.jpg
+.private/
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+signing.properties
+key.properties
+credentials*.json
+# Distribute binaries through releases
+*.apk
+*.aab
+*.idsig

@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.Vision" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#111B30</item>
+        <item name="android:colorAccent">#BECFFF</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowSplashScreenBackground">#111B30</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+    </style>
+</resources>

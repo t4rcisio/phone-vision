@@ -4,7 +4,7 @@ Thank you for improving Phone Vision. Keep code, comments, issues, and documenta
 
 ## Development
 
-1. Install Android Studio, Android SDK 37, and JDK 25.
+1. Install Android Studio, Android SDK 37 (`platforms;android-37.0`), and JDK 25.
 2. Clone the repository and configure the SDK with `ANDROID_HOME` or an untracked `local.properties` file.
 3. Run `./gradlew testDebugUnitTest lintDebug assembleDebug assembleDebugAndroidTest`.
 4. For a smaller device build, add `-PvisionAbi=arm64-v8a`.
